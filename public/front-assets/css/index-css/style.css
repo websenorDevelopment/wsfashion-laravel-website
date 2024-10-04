@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: white;
+    height: 36px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.rightBox {
+    display: flex;
+    margin: 12px;
+}
+
+.left img {
+    width: 52px;
+    height: 37.38px;
+}
+
+.container {
+    padding: 0 0vw;
+}
+
+.containerHeader {
+    padding: 0 0vw;
+}
+
+nav {
+    font-size: 12px;
+    padding-top: 14px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 12px;
+}
+
+.section1 {
+    background: #f2f2f2;
+}
+
+.search {
+    width: 34vw;
+    padding: 7px 7px;
+    margin: 1px 80px;
+    border: 0.5px solid grey;
+    background: #f7f8fd;
+    border-radius: 5px;
+}
+
+.homeImg {
+    width: 98vw;
+    padding: 0px 12px;
+    margin: 12px 0;
+}
+.homeImg1 {
+    width: 100vw;
+    /* padding: 0px 50px; */
+    margin: 12px 0;
+}
+.homeImg2 {
+    width: 100vw;
+}
+.homeImg3 {
+    width: 100vw;
+}
+.catImgs {
+    width: 30vw;
+}
+
+.catImgs1 {
+    display: flex;
+    flex-wrap: nowrap; /* Ensure the items don't wrap to the next line */
+    width: 100%; /* Makes the container take full width */
+}
+
+.catImgs1 img {
+    width: 16.6vw; /* Adjust width of each image as needed */
+    height: auto; /* Ensures the aspect ratio is maintained */
+}
+.catImgs2 {
+    display: flex;
+    flex-wrap: nowrap; /* Ensure the items don't wrap to the next line */
+    width: 100%; /* Makes the container take full width */
+}
+
+.catImgs2 img {
+    width: 16.6vw; /* Adjust width of each image as needed */
+    height: auto; /* Ensures the aspect ratio is maintained */
+}
+
+/* 
+footer {
+    padding: 23px;
+    text-align: center;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+} */
+.footer {
+    background-color: #f5f5f5;
+    padding: 60px 150px 60px 70px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section1 {
+    flex: 1 1 15%; /* Adjusted to fit four columns */
+    margin: 0 10px; /* Reduced horizontal margin only */
+    min-width: 180px;
+}
+.footer-section2 {
+    flex: 1 1 15%; /* Adjusted to fit four columns */
+    margin: 0 10px; /* Reduced horizontal margin only */
+    min-width: 180px;
+}
+.footer-section3 {
+    flex: 1 1 25%; /* Adjusted to fit four columns */
+    margin: 0 10px; /* Reduced horizontal margin only */
+    min-width: 180px;
+}
+.footer-section4 {
+    flex: 1 1 25%; /* Adjusted to fit four columns */
+    margin: 0 10px; /* Reduced horizontal margin only */
+    min-width: 180px;
+}
+
+.footer-item {
+    display: flex;
+    align-items: center; /* Aligns items vertically centered */
+    margin-bottom: 10px; /* Space between items */
+}
+
+.footer-item img {
+    margin-right: 10px; /* Space between image and text */
+}
+
+.footer-item p {
+    margin: 0; /* Remove default margin */
+    text-align: left; /* Align text to the left to ensure proper alignment with image */
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between; /* Distributes space between the spans */
+    width: 100%; /* Ensure it takes the full width of the container */
+}
+
+.footerSpan01 {
+    text-align: start;
+    flex: 1; /* Allows it to take up space from the start */
+}
+
+.footerSpan02 {
+    text-align: center;
+    flex: 1; /* Allows it to take up space in the center */
+    text-align: center; /* Centers the text within its space */
+}
+
+.footerSpan03 {
+    text-align: end;
+    flex: 1; /* Allows it to take up space from the end */
+    text-align: end; /* Aligns text to the end */
+}
+.header-with-line {
+    display: flex;
+    align-items: center; /* Aligns items vertically centered */
+    justify-content: space-between; /* Distributes space between items */
+}
+
+.header-with-line hr {
+    flex: 1; /* Takes up remaining space */
+    margin: 0 0 0 10px; /* Adds space between text and line */
+    border: none; /* Removes default border */
+    border-top: 1px solid #000; /* Adds line style */
+}
+.category-list {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjusts spacing between items */
+    font-size: 12px; /* Adjust font size if needed */
+}
+
+.footer-section1 h4,
+.footer-section2 h4,
+.footer-section3 h4,
+.footer-section4 h4 {
+    color: #333;
+    font-size: 12px;
+    margin-bottom: 10px; /* Reduced margin between sections */
+    font-weight: bold;
+}
+
+.footer-section1 ul,
+.footer-section2ul,
+.footer-section3ul,
+.footer-section4 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section1 ul li,
+.footer-section2 ul li,
+.footer-section3 ul li,
+.footer-section4 ul li {
+    margin-bottom: 10px;
+    font-size: 10px;
+    color: #666;
+    cursor: pointer;
+}
+
+.footer-section1 ul li:hover,
+.footer-section2 ul li:hover,
+.footer-section3 ul li:hover,
+.footer-section4 ul li:hover {
+    color: #000;
+}
+
+.download-links {
+    display: flex;
+    align-items: center;
+}
+
+.social-media-links img {
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    color: #888;
+}
+
+.footer-bottom p {
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section1,
+    .footer-section2,
+    .footer-section3,
+    .footer-section4 {
+        text-align: center;
+        margin: 10px 0;
+    }
+}
+.download-links {
+    display: flex;
+    align-items: center; /* Align icons vertically if needed */
+}
+
+.StoreDownloadLinks {
+    margin-right: 10px;
+    height: 42px;
+}
+.tall {
+    min-height: 40vh;
+}
+
+@media (max-width: 450px) {
+    .search {
+        width: 72vw;
+    }
+}
+
+@media (max-width: 1550px) {
+    nav ul li {
+        list-style: none;
+        padding: 0 4px;
+        font-size: 10px;
+    }
+
+    .containerHeader {
+        padding: 0 2vw;
+    }
+
+    header {
+        height: 82px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right {
+        flex-direction: column;
+    }
+
+    .rightBox {
+        display: flex;
+        margin: 12px;
+    }
+}
